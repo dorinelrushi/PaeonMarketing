@@ -1,0 +1,272 @@
+/*responsive mobile and other platforms*/
+@media only screen and (max-width: 582px){
+    input[type=email]{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1302px){
+    .flex-footer{
+        display: flex;
+     
+        grid-gap: 50px;
+    }
+}
+@media only screen and (max-width: 960px){
+    .layout-box-flex{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .empty-project{
+        display: none;
+    }
+    .one-layout-box{
+        text-align: center;
+    }
+    .two-layout-box{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1700px){
+    .rel{
+        line-height: 0.5;
+        margin-bottom: 40px;
+        
+        transition: all 0.75s ease;
+    }
+}
+@media only screen and (max-width: 1480px){
+    .rel{
+        line-height: 1;
+        transition: all 0.75s ease;
+        margin-bottom: 40px;
+    }
+    .firstProject{
+        width:350px;
+        height: 350px;
+        background:url('./photo/f1.jpeg');
+        background-size: cover;
+        transition: all 0.75s ease;
+        background-position: 50% 80%;
+    }
+    .secondProject{
+        width:350px;
+        transition: all 0.75s ease;
+        height: 350px;
+        background:url('./photo/f2.jpg');
+        background-size: cover;
+    }
+    .empty-project{
+        width:350px;
+        height: 350px;
+        transition: all 0.75s ease;
+    }
+}
+
+@media only screen and (max-width: 1580px){
+
+    .firstProject{
+        width:350px;
+        height: 350px;
+        background:url('./photo/f1.jpeg');
+        background-size: cover;
+        transition: all 0.75s ease;
+        background-position: 50% 80%;
+    }
+    .secondProject{
+        width:350px;
+        transition: all 0.75s ease;
+        height: 350px;
+        background:url('./photo/f2.jpg');
+        background-size: cover;
+    }
+    .empty-project{
+        width:350px;
+        height: 350px;
+        transition: all 0.75s ease;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .btn{
+        margin-bottom:10px ;
+        transition: all 0.75s ease;
+    }
+    .rel{
+        line-height: 1;
+        transition: all 0.75s ease;
+        margin-bottom:10px ;
+    }
+    .featuredNews  > h2{
+        font-size: 6vw;
+        margin-top: 50px;
+        transition: all 0.75s ease;
+        font-family: platia;
+  }
+  
+
+}
+@media only screen and (max-width: 720px){
+    .menu{
+        display: none;
+        transition: all 0.75s ease;
+    }
+    .email > h2 > a{
+        font-size: 3vw;
+    }
+} 
+@media only screen and (max-width:520px){
+
+    .email > h2 > a{
+        font-size: 3.5vw;
+    }
+} 
+@media only screen and (max-width: 680px) {
+    .hr{
+        width: 100%;
+        height: 2px;
+        margin-top:60px;
+        transition: all 0.75s ease;
+        margin-bottom: 70px;
+        background-color: #767676;
+    }
+    .center-text{
+        width: 100%;
+        transition: all 0.75s ease;
+    }
+   .paeon{
+       text-align: center;
+       font-size: 14vw;
+       transition: all 0.75s ease;
+   }
+   .blending{
+       font-size: 10vw;
+       transition: all 0.75s ease;
+       text-align: center;
+   }
+   .flex-text{
+    transition: all 0.75s ease;
+       display: flex;
+       flex-direction: column;
+   }
+   .rel{
+       display: flex;
+       justify-content: center;
+       transition: all 0.75s ease;
+       flex-wrap: wrap;
+       margin-top:-30px ;
+   }
+   .art{
+    font-size: 6vw;
+    transition: all 0.75s ease;
+    display: inherit;
+    font-family: platia;
+   }
+   .science{
+       margin: 0px 15px;
+       transition: all 0.75s ease;
+       font-size: 5vw;
+   }
+   .btn{
+       margin: 0px;
+       display: inline-block;
+       width: 60%;
+       transition: all 0.75s ease;
+   }
+   .btn-a{
+       font-size: 12px;
+       transition: all 0.75s ease;
+   }
+
+   .images > button{
+    width: 200px;
+    font-size: 15px;
+    transition: all 0.75s ease;
+}
+   
+.text-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    transition: all 0.75s ease;
+    margin: auto;
+    text-align: center;
+}
+.no-empty > p{
+    max-width: 280px;
+    margin: auto;
+    transition: all 0.75s ease;
+    text-align: center;
+}
+.no-empty > button{
+    width: 90%;
+    transition: all 0.75s ease;
+}
+.featuredWork-flex{
+    display: flex;
+    transition: all 0.75s ease;
+    flex-direction: column;
+}
+.left-features > h2{
+    transition: all 0.75s ease;
+    margin-bottom: 25px;
+    font-size: 6vw;
+}
+.left-features{
+    transition: all 0.75s ease;
+    display: inline;
+    width: 100%;
+}
+.right-features{
+    transition: all 0.75s ease;
+    width: 100%;
+}
+}
+
+
+
+@media only screen and (max-width: 1464px){
+    .first-row{
+        flex-wrap: wrap;
+        transition: all 0.75s ease;
+        justify-content: center;
+    }
+    .second-row{
+        flex-wrap: wrap;
+        justify-content: center;
+        transition: all 0.75s ease;
+    }
+    .f6{
+        height: 154px;
+        margin-top: 25px;
+        transition: all 0.75s ease;
+    }
+} 
+
+
+@media only screen and (max-width: 500px){
+
+    .eab > h2{
+        transition: all 0.75s ease;
+      font-size: 20px;
+    }
+} 
+
+
+@media only screen and (max-width:839px){
+.paeonLeft > h1{
+    line-height: 70px;
+    position: relative;
+    left: -4px;
+}
+.paeonMarketing-flex{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+    justify-content: space-between;
+}
+    
+} 

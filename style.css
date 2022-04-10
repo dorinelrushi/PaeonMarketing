@@ -1,0 +1,854 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+@font-face{
+    font-family: platia;
+    src:url('./plateia\ bold.ttf')
+}
+body{
+    background-color: #F0F0F0;
+}
+.header-flex{
+    padding: 40px 0px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.header-left > img{
+    width: 154.82px;
+    cursor: pointer;
+    height: 74px;
+}
+.d1{
+    width: 7.53px;
+    height: 7.53px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 100%;
+}
+.d2{
+    width: 7.53px;
+    height: 7.53px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 100%;
+}
+
+.d3{
+    width: 7.53px;
+    height: 7.53px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 100%;
+}
+
+.menu > ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.menu > ul > li{
+    margin: 0px 25px;
+} 
+
+.menu > ul > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 50px;
+}
+.dotted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 6px;
+}
+/*center text*/
+.center-text{
+    margin: auto;
+    width: 80%;
+    transition: all 0.75s ease;
+    grid-gap: 25px;
+
+}
+.blending{
+    font-size: 8vw;
+    font-family: platia;
+    transition: all 0.75s ease;
+    top: 5px;
+    line-height: 1;
+
+}
+.btn{
+    width:280px;
+    padding: 10px 00px;
+    transition: all 0.75s ease;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid black;
+}
+.btn-a{
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.75s ease;
+    font-family: platia;
+    color: #111;
+}
+.rel{
+    line-height: 2;
+    transition: all 0.75s ease;
+}
+.paeon {
+    margin-top: -18px;
+    font-size: 15vw;
+    transition: all 0.75s ease;
+    font-family: platia;
+    line-height: 1.4;
+}
+.flex-text{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.75s ease;
+    grid-gap: 50px;
+    
+}
+.art{
+    font-size: 4vw;
+    font-family: platia;
+    transition: all 0.75s ease;
+}
+.science{
+    font-size: 6vw;
+}
+/*video button center*/
+.video-flex{
+    width: 80%;
+    height: 80vh;
+    background: url('./photo/s.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: auto;
+    margin-bottom:35px ;
+    display: flex;
+    justify-content: center;
+    transition: all 0.75s ease;
+    align-items: center;
+}
+
+.images > button {
+    width: 358px;
+    background: #F0F0F0;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.75s ease;
+    font-family: platia;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    height: 82px;
+}
+
+/*animation text linear*/
+  
+.marquee__part {
+    font-size: 100px;
+    font-family: sans-serif;
+    flex-shrink: 0;
+    color: transparent;
+    font-family: platia;
+    letter-spacing: 8px;
+    color: rgb(238, 238, 238);
+    padding: 4px 4px;
+    font-smooth: always;
+  }
+  
+  .marquee {
+    margin-top: 50px;
+      margin-bottom: 50px;
+    background: #000000;
+    color: #EEE;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 50px 0;
+
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .marquee__inner {
+      width: 100%;
+      display: flex;
+      flex: auto;
+      flex-direction: row;
+  }
+
+/*our serives*/
+
+ .our-services{
+     width: 80%;
+     margin: auto;
+     padding: 10px 0px;
+     transition: all 0.75s ease;
+ }
+ .our-services > h2{
+    font-family: platia;
+    transition: all 0.75s ease;
+    letter-spacing: 1px;
+    transition: all 0.75s ease;
+    font-size: 5vw;
+ }
+
+ .f1{
+     padding: 60px 60px;
+     border-radius: 50px;
+     border: 2px solid black;
+ }
+ .f > h2{
+     font-size:24px;
+     font-family: platia;
+     margin-bottom: 25px;
+ }
+ .f > p{
+     max-width: 280px;
+     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+     
+ }
+ .fa > h2{
+    font-size:24px;
+    font-family: platia;
+    margin-bottom: 25px;
+}
+.fa > p{
+    max-width: 280px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+}
+
+.fab > h2{
+    font-size:24px;
+    font-family: platia;
+    margin-bottom: 25px;
+}
+.fab > p{
+    max-width: 280px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.ea > h2{
+    font-size:24px;
+    font-family: platia;
+    margin-bottom: 25px;
+}
+.ea > p{
+    max-width: 280px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+}
+
+.eab > h2{
+    font-size:24px;
+    max-width: 280px;
+    font-family: platia;
+    margin-bottom: 25px;
+}
+.eab > p{
+    max-width: 280px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+}
+
+ .f2{
+    padding: 60px 60px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.f3{
+    padding: 60px 60px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.f4{
+    padding: 60px 60px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.f5{
+    padding: 60px 60px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.f6{
+    padding: 60px 107px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.f6 > a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #111;
+    
+    font-family: platia;
+}
+.first-row{
+    display: flex;
+   width: 80%;
+   margin: auto;
+   grid-gap: 30px;
+}
+
+.second-row{
+    display: flex;
+   width: 80%;
+   margin: auto;
+   grid-gap: 30px;
+}
+
+
+ 
+
+/*we are paeon marketing */
+.we-are{
+    width: 80%;
+    transition: all 0.75s ease;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.we-are-flex > h2{
+    font-size: 7vw;
+    transition: all 0.75s ease;
+    font-family: platia;
+    line-height: 25px;
+    text-align: right;
+}
+
+.marketing > h2{
+    transition: all 0.75s ease;
+    font-family: platia;
+    font-size: 7vw;
+    text-align: right;
+}
+
+
+/*text-empty*/
+.left-text-empty{
+    width: 10px;
+    height: 10px;
+    transition: all 0.75s ease;
+}
+.text-left{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 25px;
+    transition: all 0.75s ease;
+    justify-content: space-between;
+}
+.no-empty > p{
+    max-width: 400px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.75s ease;
+ }
+
+ .no-empty > button{
+    margin-top:50px;
+    width: 400px;
+    height: 58px;
+    transition: all 0.75s ease;
+    border: 2px solid black;
+    border-radius: 90px;
+ }
+
+.no-empty > button > a{
+    transition: all 0.75s ease;
+    font-size: 18px;
+    font-family: platia;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/*features one images*/
+
+.left-features{
+    width: 40%;
+    transition: all 0.75s ease;
+    margin: 0px;
+}
+.left-features > h2{
+    font-family:platia;
+    transition: all 0.75s ease;
+    font-size: 3vw;
+    line-height: 50px;
+    position: relative;
+    top: -9;
+}
+.right-features{
+    width: 70%;
+    transition: all 0.75s ease;
+}
+.featuredWork{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+    transition: all 0.75s ease;
+}
+.featuredWork-flex{
+    display: flex;
+    transition: all 0.75s ease;
+}
+
+.images-size{
+    width: 100%;
+    transition: all 0.75s ease;
+    height: 450px;
+    background: url('./photo/project.png');
+    background-size: cover;
+}
+
+.flex-btn{
+    display: flex;
+    transition: all 0.75s ease;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    grid-gap: 25px;
+}
+#br{
+    transition: all 0.75s ease;
+    width: 269px;
+    border-radius: 90px;
+    height: 46px;
+    border: none;
+    background-color: transparent;
+    border: 1.5px solid #838383;
+    color: #838383;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#di{
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.75s ease;
+    background-color: transparent;
+    width: 269px;
+    border-radius: 90px;
+    height: 46px;
+    border: none;
+    border: 1.5px solid #838383;
+    color:#838383;
+}
+
+
+
+/*project*/
+
+.layout-box-flex{
+    width: 80%;
+    grid-column-gap: 60px;
+    grid-row-gap:30px;
+    transition: all 0.75s ease;
+    margin: auto;
+    display: flex;
+}
+.firstProject{
+    width:440px;
+    height: 350px;
+    background:url('./photo/f1.jpeg');
+    background-size: cover;
+    transition: all 0.75s ease;
+    background-position: 50% 80%;
+}
+.secondProject{
+    width:440px;
+    transition: all 0.75s ease;
+    height: 350px;
+    background:url('./photo/f2.jpg');
+    background-size: cover;
+}
+.empty-project{
+    width:440px;
+    height: 350px;
+    transition: all 0.75s ease;
+}
+
+#brand{
+    width: 269px;
+    height: 46px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.75s ease;
+    margin-top: 25px;
+    letter-spacing: 0.5px;
+    border: 1.5px solid #838383;
+box-sizing: border-box;
+border-radius: 90px;
+}
+
+#brandi{
+    width: 269px;
+    font-family: 'Poppins', sans-serif;
+    height: 46px;
+    transition: all 0.75s ease;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+    border: 1.5px solid #838383;
+    box-sizing: border-box;
+    border-radius: 90px;
+}
+
+
+#showmore{
+    width: 269px;
+    height: 46px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 90px;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+}
+#showmore >a {
+   color : #000000;
+   text-decoration: none;
+   font-family: platia;
+}
+
+/*features news*/
+.featuredNews  {
+    width: 80%;
+    transition: all 0.75s ease;
+    margin: auto;
+}
+.featuredNews  > h2{
+      font-size: 4vw;
+      transition: all 0.75s ease;
+      margin-top: 110px;
+      font-family: platia;
+}
+
+
+/*features new is created*/
+.layout-news{
+    width: 80%;
+    transition: all 0.75s ease;
+    overflow: scroll;
+    margin: auto;
+    cursor: pointer;
+    overflow-x: hidden;
+    height: 750px;
+    margin-bottom: 35px;
+    
+}
+.layout-news::-webkit-scrollbar-track{
+	border-radius: 5px;
+}
+
+.layout-news::-webkit-scrollbar{
+	width: 5px;
+}
+
+.layout-news::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(165, 165, 165);
+    transition: all 0.75s ease;
+}
+.background-changes{
+    width: 100%;
+    background-size: cover;
+    transition: all 0.75s ease;
+}
+.overlay-news{
+    width: 100%;
+}
+
+.first-f-flex{
+    display: flex;
+    justify-content: space-between;
+    color: #111;
+    flex-wrap: wrap;
+    transition: all 0.75s ease;
+    border-bottom: 2px solid #111;
+    width: 85%;
+    grid-row-gap:15px ;
+    padding: 50px 0px;
+    margin: auto;
+}
+.news-date{
+    display: flex;
+    align-items: center;
+    transition: all 0.75s ease;
+    letter-spacing: 0.5px;
+    grid-gap: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.news-date > p{
+    color: #838383;
+    transition: all 0.75s ease;
+}
+.news-date > h2{
+    transition: all 0.75s ease;
+    font-size: 17px;
+}
+.title-cl > h2{
+    transition: all 0.75s ease;
+    font-size: 23px;
+    font-family: platia;
+    max-width: 580px;
+
+    
+}
+.buttonmore {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    transition: all 0.75s ease;
+    justify-content: end;
+    margin-bottom: 25px;
+    text-align: right;
+}
+#clickNhere{
+    border: 1.5px solid #000000;
+box-sizing: border-box;
+border-radius: 90px;
+transition: all 0.75s ease;
+background-color: transparent;
+font-family: platia;
+    width: 362px;
+    height: 46px;
+}
+
+.collaboreate{
+    width: 80%;
+    transition: all 0.75s ease;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 90px;
+}
+.collaboreate > h2{
+    font-size: 4vw;
+    transition: all 0.75s ease;
+    font-family: platia;
+    max-width:1050px;
+}
+
+.email{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: all 0.75s ease;
+}
+ 
+.email > h2 > a{
+    color: #989898;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: platia;
+    font-size: 3vw;
+    transition: all 0.75s ease;
+}
+
+.hr{
+    width: 100%;
+    height: 2px;
+    margin-top:180px;
+    transition: all 0.75s ease;
+    margin-bottom: 100px;
+    background-color: #767676;
+}
+
+/*footer*/
+
+.footer{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: all 0.75s ease;
+}
+
+.flex-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: all 0.75s ease;
+}
+
+.ourTeam >h2 {
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all 0.75s ease;
+    margin-bottom: 20px;
+   font-size: 24px;
+   font-family: 'Poppins', sans-serif;
+}
+.menu-hereone >h2{
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all 0.75s ease;
+    margin-bottom: 20px;
+   font-size: 24px;
+   font-family: 'Poppins', sans-serif;
+}
+.team > h4{
+    margin: 12px 0px;
+    transition: all 0.75s ease;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #9F9F9F;
+    font-weight: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.team > h4 > a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 100px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.75s ease;
+    letter-spacing: 1px;
+}
+.menu-here > ul{
+    list-style-type: none;
+    transition: all 0.75s ease;
+}
+.menu-here > ul > li{
+    transition: all 0.75s ease;
+    margin: 12px 0px;
+}
+
+.menu-here > ul > li > a{
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.75s ease;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stayonTouch  > h2{
+    font-weight: 600;
+    color: #000000;
+    transition: all 0.75s ease;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all 0.75s ease;
+    margin-bottom: 20px;
+   font-size: 24px;
+   font-family: 'Poppins', sans-serif;
+}
+
+input[type=email]{
+    width: 429px;
+    height: 63px;
+    border: none;
+    transition: all 0.75s ease;
+    border: 2px solid #B3B3B3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    padding: 0px 30px;
+    font-style: normal;
+   position: relative;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+::placeholder {
+    outline: none;
+    transition: all 0.75s ease;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+input[type=submit]{
+    font-size: 35px;
+    position: relative;
+    left: -59px;
+     top: -2px;
+     transition: all 0.75s ease;
+     color: #B3B3B3;
+    background-color: transparent;
+    border: none;
+
+}
+
+.no-flex{
+    display: flex;
+    transition: all 0.75s ease;
+}
+/*end of paeon*/
+.paeonMarketing{
+    width: 80%;
+    margin-top: 500px;
+    margin: auto;
+    transition: all 0.75s ease;
+}
+.paeonRight > ul{
+    list-style-type: none;
+    transition: all 0.75s ease;
+}
+.paeonRight > ul > li{
+    margin: 10px 0px;
+}
+.paeonRight > ul > li > a{
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.paeonMarketing-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.paeonLeft > h2{
+    font-size:24px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.paeonLeft > h1{
+    font-size: 15vw;
+    font-family: platia;
+    line-height: 150px;
+    position: relative;
+    left: -11px;
+}
+
+.paeonRight > h2{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
